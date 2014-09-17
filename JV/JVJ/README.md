@@ -91,6 +91,8 @@ bower -v 1.3.9
     update:更新项目的包
     uninstall:删除项目的包
 
+##准备开发一个jquery插件
+    yo jvj
 
 
 
