@@ -1,0 +1,420 @@
+/*
+ * gallery
+ *
+ * Copyright (c) 2014 jay
+ * Licensed under the MIT license.
+ */
+ /* film-strip container */
+.media #content-top {
+    background: url("http://blizzcon.nos.netease.com/1/images/media/content-top.jpg") no-repeat;
+}
+.media-wrapper h2.header-2 {
+    float: left;
+    width: 550px;
+}
+.media-content {
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.media-wrapper .lower-content-wide-bottom {
+    padding-left: 3px;
+}
+.media-index-section {
+    margin: 0 auto;
+    width: 940px;
+}
+#video_top {
+    left: -20px;
+    position: absolute;
+    top: -2px;
+}
+.media-content .film-strip-wrapper .ajax-frame .paging-arrow, 
+.media-content .view-link, #film-strip .track:hover, 
+#film-strip .track .thumb, #film-strip .track .thumb .thumb-bot, 
+.media-content .film-strip-thumb-frame, 
+.media-content .filter-dropdown .keyword-filter .checkbox, 
+.media-content .currently-viewing .clear-filters, 
+.media-content .currently-viewing .clear-filters span, 
+.media-content .thumb-frame, 
+.media-content .media-title .view-all .arrow, 
+.media-content .media-title .media-icon {
+    background-image: url("http://blizzcon.nos.netease.com/1/images/media/sprite.png");
+}
+.media-content .media-title {
+    background: url("http://blizzcon.nos.netease.com/1/images/media/media-title-bg.png") 0 5px no-repeat;
+    color: #00afff;
+    font-size: 15px;
+    letter-spacing: -0.05em;
+    padding-top: 10px;
+    width: 940px;
+    display: block;
+    height: 34px;
+    line-height: 23px;
+    position: relative;
+    /* text-transform: uppercase; */
+}
+.media-content .media-title .view-all {
+    display: block;
+    font-size: 14px;
+    line-height: 100%;
+    position: absolute;
+    color: #56c702;
+    letter-spacing: normal;
+    right: 9px;
+    top: 9px;
+    text-align: right;
+    text-transform: none;
+}
+.media-content .media-title .media-icon {
+    height: 45px;
+    margin-top: -12px;
+    width: 50px;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+}
+.media-content .media-title.videos .media-icon {
+    background-position: -232px -568px;
+}
+.media-content .media-title.photos .media-icon,.media-content .media-title.cosplay .media-icon {
+    background-position: -85px -568px;
+}
+.media-content .media-title.gallery .media-icon {
+    background-position: -159px -568px;
+}
+.media-content .media-title .view-all .arrow {
+    margin-left: 5px;
+    background-position: -94px -391px;
+    background-repeat: no-repeat;
+    display: block;
+    float: right;
+    height: 12px;
+    width: 12px;
+}
+.media-content .media-title:hover .view-all .arrow {
+    background-position: -120px -391px;
+}
+.media-content #videos,.media-content #photos,#media-index .media-index-section #gallery {
+    margin-bottom: 60px;
+}
+.media-content #cosplay {
+    margin-bottom:23px;
+}
+.media-content .media-title .total {
+    color: #fff;
+    padding-left: 3px;
+    font-size: 15px;
+    letter-spacing: -0.05em;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+.media-content .video-wrapper {
+    padding: 0 10px;
+    margin: 15px auto;
+}
+.media-content .video-wrapper li {
+    float: left;
+    position: relative;
+    width: 446px;
+}
+.media-content .video-wrapper li.left {
+    margin: 0 28px 0 0;
+}
+.media-content .video-wrapper li span.video {
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 9px;
+    background: #041d2f;
+    height: 269px;
+    width: 428px;
+}
+.media-content .video-wrapper li span.mask {
+    background: url("http://blizzcon.nos.netease.com/1/images/media/sprite2.png") no-repeat;
+    background-position: -7px -11px;
+    cursor: pointer;
+    display: block;
+    top: -8px;
+    left: -10px;
+    position: absolute;
+    height: 288px;
+    width: 446px;
+}
+.media-content .video-wrapper li span.play-btn {
+    width: 71px;
+    height: 71px;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    top: 50%;
+    margin-top: -40px;
+    display: block;
+    background: url("http://blizzcon.nos.netease.com/1/images/media/sprite2.png") no-repeat;
+    background-position: -2346px -327px;
+}
+.media-content .video-wrapper li span.play-btn:hover {
+    background-position: -2346px -444px;
+}
+.media-content span.title {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    color: #00afff;
+    line-height: 30px;
+}
+.media-content .video-wrapper li a {
+}
+.media-content .video-wrapper li a:hover span.mask {
+    background-position: -7px -302px;
+}
+.media-content a:hover span.title {
+    color: #fff;
+}
+
+
+.photosListWrap{
+    position: relative;
+    width: 930px;
+    height: 170px;
+    overflow: hidden;
+}
+.media-content .photos-wrapper {
+    margin: 15px auto 0;
+    position: relative;
+}
+.media-content .photos-wrapper .photos-slideshow {
+    width: 920px;
+    height: 620px;
+    margin: 0 auto;
+    display: block;
+    background: url("http://blizzcon.nos.netease.com/1/images/media/sprite2.png") no-repeat;
+    background-position: -460px -11px;
+    cursor: pointer;
+    z-index: 1001;
+    position: relative;
+}
+/*#media-index .media-index-section .photos-wrapper a:hover .photos-slideshow {
+    background-position: -1397px -11px;
+}*/
+.media-content .photos-wrapper .photos-slideshow-bg {
+    background: #041d2f;
+    position: absolute;
+    left: 19px;
+    top: 7px;
+    display: block;
+    width: 900px;
+    height: 600px;
+    z-index: 1000;
+    overflow: hidden;
+}
+.media-content .photos-wrapper a.prev,.media-content .photos-wrapper a.next {
+    width: 38px;
+    height: 67px;
+    position: absolute;
+    top: 300px;
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    z-index: 1002;
+    background: url("http://blizzcon.nos.netease.com/1/images/media/sprite2.png") no-repeat;
+}
+.media-content .photos-wrapper a.prev {
+    left: 0;
+    background-position: -2321px -552px;
+}
+.media-content .photos-wrapper a.prev:hover {
+    background-position: -2478px -552px;
+}
+.media-content .photos-wrapper a.next {
+    right: 0;
+    background-position: -2392px -552px;
+}
+.media-content .photos-wrapper a.next:hover {
+    background-position: -2549px -552px;
+}
+.media-content #photos .photos-list {
+    margin-top: 0;
+    width: 9999em;
+    position: absolute;
+}
+.media-content #photos .photos-list li {
+    margin: 0 37px 0 0;
+}
+.media-content #photos .photos-list li.last {
+    margin: 0;
+}
+.media-content .photos-list {
+    margin-top: 5px;
+    padding: 10px 14px;
+}
+.media-content .photos-list li {
+    float: left;
+    margin: 0 37px 15px 0;
+    position: relative;
+}
+.media-content .photos-list li.last {
+    margin: 0 0 12px 0;
+}
+.media-content .photos-list li a span.photo-bg {
+    width: 188px;
+    height: 118px;
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 7px;
+    z-index: 1000;
+    background: #041d2f;
+    overflow: hidden;
+}
+.media-content .photos-list li a span.mask {
+    width: 200px;
+    height: 130px;
+    display: block;
+    cursor: pointer;
+    z-index: 1001;
+    position: relative;
+    background: url("http://blizzcon.nos.netease.com/1/images/media/sprite2.png") no-repeat;
+    background-position: -2330px -10px;
+}
+.media-content .photos-list li a:hover span.mask {
+    background-position: -2330px -162px;
+}
+
+.media-content .gallery-wrapper {
+    padding: 0 10px;
+    margin: 15px auto;
+}
+.media-content .gallery-wrapper .gallery-list {
+    float: left;
+    position: relative;
+    width: 446px;
+}
+.media-content .gallery-wrapper .gallery-list.left {
+    margin: 0 28px 0 0;
+}
+.media-content .gallery-wrapper .gallery-list span.gallery {
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 9px;
+    background: #041d2f;
+    height: 269px;
+    width: 428px;
+    overflow: hidden;
+}
+.media-content .gallery-wrapper .gallery-list span.mask {
+    background: url("http://blizzcon.nos.netease.com/1/images/media/sprite2.png") no-repeat;
+    background-position: -7px -11px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    height: 288px;
+    width: 446px;
+}
+.media-content .gallery-wrapper .gallery-list a:hover span.mask {
+    /*background-position: -7px -302px;*/
+}
+.media-content .gallery-wrapper .gallery-list .size-list {
+    padding: 8px 12px;
+}
+.media-content .gallery-wrapper .gallery-list .size-list li {
+    padding-right: 20px;
+    display: inline-block;
+    line-height: 36px;
+}
+.media-content .gallery-wrapper .gallery-list .size-list li a {
+    color: #00afff;
+}
+.media-content .gallery-wrapper .gallery-list .size-list li a:hover {
+    color: #fff;
+}
+
+
+/* film-strip container */
+.media-content .film-strip-wrapper { width:942px; height:655px; background: url("http://blizzcon.nos.netease.com/1/images/media/vertical-bg.jpg") no-repeat; margin:8px auto 0 }
+.media-content .film-strip-wrapper .ajax-frame { width:738px; height:655px; position:relative }
+.media-content .film-strip-wrapper .thumbnail-loader { background-position:50px 28px;background-image: url(http://blizzcon.nos.netease.com/1/images/loaders/media-page-load.gif); }
+.media-content .film-strip-wrapper .ajax-frame .paging-arrow { background-repeat:no-repeat; display:none; height:85px; width:56px; position:absolute; top:288px }
+.media-content .film-strip-wrapper .ajax-frame .paging-arrow.next { right:-9px; background-position:-165px -436px }
+.media-content .film-strip-wrapper .ajax-frame .paging-arrow.next:hover { background-position:-322px -436px }
+.media-content .film-strip-wrapper .ajax-frame .paging-arrow.previous { left:-9px; background-position:-94px -436px }
+.media-content .film-strip-wrapper .ajax-frame .paging-arrow.previous:hover { background-position:-251px -436px }
+.media-content .film-strip-wrapper .ajax-frame:hover .paging-arrow { display:block }
+.media-content .film-strip-thumb-wrapper { display:block; height:75px; width:120px; margin-bottom:15px; background-repeat:no-repeat; box-shadow: #000 0 0 10px }
+.media-content .film-strip-thumb-frame { display:block; height:75px; width:120px; background-repeat:no-repeat; background-position:-80px 0 }
+.media-content .film-strip-thumb-wrapper:hover .film-strip-thumb-frame { background-position:-80px -75px }
+.media-content .video-thumbnails .film-strip-thumb-wrapper:hover .film-strip-thumb-frame { background-position:-80px -150px }
+.media-content #film-strip .active-film-strip-thumb-wrapper .film-strip-thumb-frame { background-position:-80px -225px }
+
+#film-strip { width: 187px; clear: both; height: 615px; padding:20px 17px 20px 0; float:right }
+#film-strip .viewport-content { width:120px; padding:0 21px 0 27px; height: 615px; overflow: hidden; position: relative }
+#film-strip #film-strip-thumbnails { position: absolute; top:0; z-index:1 }
+#film-strip .disable { display: none }
+#film-strip .viewport-scrollbar { position: relative; float: right; width: 16px; height:615px }
+#film-strip .track { height:615px; width:16px; position: relative; background-repeat:no-repeat }
+#film-strip .track:hover { cursor:pointer }
+#film-strip .track .thumb { height: 105px; width: 16px; overflow: hidden; position: absolute; top: 0; background-repeat:no-repeat; background-position:-16px 0; padding-top:3px }
+#film-strip .track .thumb .thumb-bot { height:100%; width:16px; background-position:-32px 100% }
+#film-strip .track .thumb:hover { background-position:-48px 0 }
+#film-strip .track .thumb:hover .thumb-bot { background-position:-64px 100% }
+
+/* film-strip ajax target */
+#film-strip-ajax-target { height:655px; width:738px; text-align:center; background-image: url("http://blizzcon.nos.netease.com/1/images/loaders/media-page-load.gif"); background-repeat:no-repeat; background-position: 50% 50%;overflow: hidden;}
+.verticalAlign{ vertical-align:middle; display:inline-block; height:100%; width:1px; margin-left:-1px;}
+#current-image { cursor:pointer;vertical-align:middle; max-width: 700px; }
+
+/* meta data */
+.media-content #media-meta-data { width:942px; margin:25px auto 0 }
+.media-content #item-title { color: #00afff;font-size:18px; padding:3px 0 6px }
+.media-content #item-description { padding-bottom:21px }
+.media-content .meta-details { line-height:14px }
+.media-content .meta-details dt { color: #00afff;float:left; padding-right:4px }
+.media-content .meta-details .dt-separator { padding-left: 11px; margin-left:11px; border-left: 1px solid #000 }
+.media-content .meta-details .dt-downloads { clear:both; padding-top:10px }
+.media-content .meta-details .dd-downloads { padding-top:10px }
+.media-content .meta-details dd { float:left; padding-left:4px }
+
+#mediaPage{
+    padding-right: 18px;
+}
+#photo{
+    padding: 0;
+    width: 960px;
+    border: 3px solid #014566;
+    background: #000;
+}
+#photo .videoBox{
+    height: 520px;
+}
+.photosListWrap .video_title{
+    display: block;
+    width: 190px;
+    text-align: center;
+    padding-top: 10px;
+    color: #00AFFF;
+}
+.media-content .video-list li a span.mask {
+    width: 190px;
+    height: 120px;
+    top: 6px;
+    left: 4px;
+    display: block;
+    z-index: 1001;
+    position: relative;
+    background: url("http://blizzcon.nos.netease.com/1/images/media/light_video.png") no-repeat;
+    background-position: 0 0;
+}
+.media-content .video-list li a:hover span.mask,.media-content .video-list li.active a span.mask {
+    background-position: 0 -120px;
+}
+.media-content .video-list li.active a span.video_title{
+    color: #fff;
+}
+.media-content .meta-details .screen {
+    padding-top: 10px;
+}
+#popBox{
+    *width: 960px;
+}
