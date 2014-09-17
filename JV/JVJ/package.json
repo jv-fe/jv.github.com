@@ -1,0 +1,32 @@
+{
+  "name": "jvj",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qinliang760/qinliang760.github.com/JV/JVJ.git"
+  },  
+  "path":{
+  	"tmpl":["E:/myfile/git_new/qinliang760.github.com/JV/JVJ/jv-plugins"],
+  	"root":"E:/myfile/git_new/qinliang760.github.com/JV/JVJ",
+  	"cssRoot":"E:/myfile/git_new/qinliang760.github.com/JV/JVJ/jv-plugins",
+  	"jsRoot":"E:/myfile/git_new/qinliang760.github.com/JV/JVJ/jv-plugins"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-usemin": "~2.0.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-cssmin": "~0.9.0",
+    "grunt-contrib-htmlmin": "~0.3.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-imagemin": "~0.8.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-connect": "~0.8.0",
+    
+    "chalk": "~0.4.0",
+    "compare-version": "~0.1.0",
+    "multiline": "^0.3.4",
+    "pkg-name": "~0.1.0",
+    "yeoman-generator": "~0.16.0"    
+  }
+}
