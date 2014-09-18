@@ -1,4 +1,4 @@
-# JVC
+# JVC v0.1
 JVC是JV前端团队初步制定的一套CSS命名规范，引鉴于[NEC]。  
 这套规范有助于提高代码的可读性，减少命名冲突。
 
@@ -63,12 +63,12 @@ html对应的class命名可以为：
 ![common:share][shareImg]   
 ```html
 <dl class=“c-share”>
-      <dt>分享到：</dt>
-      <dd>
-              <a href=“”>新浪微博</a>
-              <a href=“”>腾讯微博</a>
-              ...
-      </dd>
+    <dt>分享到：</dt>
+    <dd>
+        <a href=“”>新浪微博</a>
+        <a href=“”>腾讯微博</a>
+        ...
+    </dd>
 </dl>
 ```
 ```css
