@@ -45,7 +45,7 @@ html对应的class命名可以为：
 </body>
 ```
 再如导航模块，新闻列表模块和图片轮播模块，可分别命名为.m-nav，.m-newsList和.m-galleryPlayer。
-### 3.页面挂件(widget)（.w-），理解为比模块(.m-)更小的元素或区块。如下图的搜索框  
+### 3.页面挂件(widget)（.w-），页面中比模块(.m-)更小的元素或区块。如下图的搜索框  
 ![widget:search][searchImg]  
 ```html
 <form class=“w-search” action=“http://www.google.com.hk/search”>
@@ -59,7 +59,7 @@ html对应的class命名可以为：
 .w-search .btn{}
 ```
 再如页面的标题，页面的次导航和页面的翻页控件，可分别命名为.w-title，.w-subNav和.w-pageTurn。
-### 4.通用组件(common)（.c-），多个页面公用的组件。如下图的分享通用组件  
+### 4.通用组件(common)（.c-），多个页面可公用的组件。如下图的分享通用组件  
 ![common:share][shareImg]   
 ```html
 <dl class=“c-share”>
