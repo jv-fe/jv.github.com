@@ -6,20 +6,14 @@ JVC是JV前端团队初步制定的一套CSS命名规范，引鉴于[NEC]。
 ## 命名连字符（减号）"-"
 有两种含义：  
 1. 分类前缀分隔符  
-2. 2. 扩展分隔符
+2. 扩展分隔符
 
 ## 分类前缀
 ### 1.布局(grid)（.g-），用于分隔页面不同区块，如页面的头部，主体和脚部。
 ```html
-<div class="g-hd">
-	...
-</div>
-<div class="g-mn">
-	...
-</div>
-<div class="g-ft">
-	...
-</div>
+<div class="g-hd">...</div>
+<div class="g-mn">...</div>
+<div class="g-ft">...</div>
 ```
 ```css
 .g-hd{}
@@ -73,7 +67,7 @@ html对应的class命名可以为：
       <dd>
               <a href=“”>新浪微博</a>
               <a href=“”>腾讯微博</a>
-              …
+              ...
       </dd>
 </dl>
 ```
@@ -81,7 +75,7 @@ html对应的class命名可以为：
 .c-share{}
 .c-share dt{}
 .c-share dd{}
-.c-share a{}  /* 注：这里用后代选择器不大好，尽量使用class选择器代替后代选择器。后面有说明注意事项 */
+.c-share a{}  /* 注：用后代选择器容易污染子元素，尽量使用class选择器代替后代选择器。后面也有说明。 */
 ```
 再如公用登录组件，分享组件和弹窗组件，可分别命名为.c-login，.c-share和.c-popup。  
 ### 5.元件(unit)（.u-），页面上小得不可再划分的元件，多用于页面的图标和按钮。   
